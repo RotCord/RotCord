@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name            Vencord
-// @description     A Discord client mod - Web version
+// @name            RotCord
+// @description     A Vencord fork and a Discord client mod - Web version
 // @version         %version%
-// @author          Vendicated (https://github.com/Vendicated)
-// @namespace       https://github.com/Vendicated/Vencord
-// @supportURL      https://github.com/Vendicated/Vencord
+// @author          RotCord (https://github.com/RotCord)
+// @namespace       https://github.com/RotCord/RotCord
+// @supportURL      https://github.com/RotCord/RotCord
 // @license         GPL-3.0
 // @match           *://*.discord.com/*
 // @grant           GM_xmlhttpRequest
