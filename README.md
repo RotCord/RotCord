@@ -1,6 +1,6 @@
 # RotCord
 
-A fork of Vencord, that may or may not contribute upstream.
+A fork of [Vencord](https://github.com/Vendicated/Vencord), that may or may not contribute upstream.
 
 ## Star History
 
