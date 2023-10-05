@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /*
- * Vencord, a modification for Discord's desktop app
- * Copyright (c) 2022 Vendicated and contributors
+ * RotCord, a Vencord fork and a modification for Discord's desktop app
+ * Copyright (c) 2022 RotCord, Vendicated and Vencord contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

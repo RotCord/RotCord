@@ -12,6 +12,15 @@ A fork of [Vencord](https://github.com/Vendicated/Vencord), that may or may not 
   </picture>
 </a>
 
+## Notes
+No support will be given if you want to use this fork, use [Vencord](https://github.com/Vendicated/Vencord) instead.
+Due to circumstances I cannot interact with the Vencord repository, so I decided to make a rebranded fork so I can work on plugins on my own.
+If you are a vencord contributor (or Ven themself) feel free to take any modifications I make and cherry-pick them upstream.
+
+No ill-meaning is behind the name RotCord, the discord client-mod namespace is oversaturated, so it wasn't easy to pick a name.
+
+Additionally I'll keep the `dist` files named as Vencord, to keep compatibility with Vencord loaders (eg Vesktop).
+
 ## Disclaimer
 
 Discord is trademark of Discord Inc. and solely mentioned for the sake of descriptivity.
