@@ -4,7 +4,7 @@ A fork of [Vencord](https://github.com/Vendicated/Vencord), that may or may not 
 
 ## Star History
 
-<a href="https://star-history.com/#Vendicated/Vencord&Timeline">
+<a href="https://star-history.com/#RotCord/RotCord&Timeline">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=RotCord/RotCord&type=Timeline&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=RotCord/RotCord&type=Timeline" />
