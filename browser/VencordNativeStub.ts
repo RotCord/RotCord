@@ -39,6 +39,18 @@ const setCssDebounced = debounce((css: string) => VencordNative.quickCss.set(css
 
 const themeStore = DataStore.createStore("VencordThemes", "VencordThemeData");
 
+const _localStorage = function () {
+    const iframe = document.createElement("iframe");
+
+    document.head.append(iframe);
+    // @ts-ignore
+    const localStorage = Object.getOwnPropertyDescriptor(iframe.contentWindow, "localStorage").get.call(unsafeWindow);
+
+    iframe.remove();
+
+    return localStorage;
+};
+
 // probably should make this less cursed at some point
 window.VencordNative = {
     themes: {
@@ -96,8 +108,10 @@ window.VencordNative = {
     },
 
     settings: {
-        get: () => localStorage.getItem("VencordSettings") || "{}",
-        set: async (s: string) => localStorage.setItem("VencordSettings", s),
+        // @ts-ignore
+        get: () => _localStorage().getItem("VencordSettings") || "{}",
+        // @ts-ignore
+        set: async (s: string) => _localStorage().setItem("VencordSettings", s),
         getSettingsDir: async () => "LocalStorage"
     },
 
