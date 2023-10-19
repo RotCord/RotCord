@@ -1,6 +1,7 @@
 # RotCord
 
-A fork of [Vencord](https://github.com/Vendicated/Vencord), that may or may not contribute upstream.
+A fork of [Vencord](https://github.com/Vendicated/Vencord), that may or may not contribute upstream. <br />
+Private community server: [here](https://discord.gg/6qDt8rGZ2W).
 
 ## Star History
 
